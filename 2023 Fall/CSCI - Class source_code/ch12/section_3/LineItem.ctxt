@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LineItem
+comment0.text=\r\n\ \ \ Describes\ a\ quantity\ of\ an\ article\ to\ purchase.\r\n
+comment1.params=aProduct\ aQuantity
+comment1.target=LineItem(Product,\ int)
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ an\ item\ from\ the\ product\ and\ quantity.\r\n\ \ \ \ \ \ @param\ aProduct\ the\ product\r\n\ \ \ \ \ \ @param\ aQuantity\ the\ item\ quantity\r\n
+comment2.params=
+comment2.target=double\ getTotalPrice()
+comment2.text=\r\n\ \ \ \ \ \ Computes\ the\ total\ cost\ of\ this\ line\ item.\r\n\ \ \ \ \ \ @return\ the\ total\ price\r\n
+comment3.params=
+comment3.target=java.lang.String\ format()
+comment3.text=\r\n\ \ \ \ \ \ Formats\ this\ item.\r\n\ \ \ \ \ \ @return\ a\ formatted\ string\ of\ this\ item\r\n
+numComments=4

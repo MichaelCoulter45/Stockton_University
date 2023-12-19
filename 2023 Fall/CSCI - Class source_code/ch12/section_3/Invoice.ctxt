@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Invoice
+comment0.text=\r\n\ \ \ Describes\ an\ invoice\ for\ a\ set\ of\ purchased\ products.\r\n
+comment1.params=anAddress
+comment1.target=Invoice(Address)
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ an\ invoice.\r\n\ \ \ \ \ \ @param\ anAddress\ the\ billing\ address\r\n
+comment2.params=aProduct\ quantity
+comment2.target=void\ add(Product,\ int)
+comment2.text=\r\n\ \ \ \ \ \ Adds\ a\ charge\ for\ a\ product\ to\ this\ invoice.\r\n\ \ \ \ \ \ @param\ aProduct\ the\ product\ that\ the\ customer\ ordered\r\n\ \ \ \ \ \ @param\ quantity\ the\ quantity\ of\ the\ product\r\n
+comment3.params=
+comment3.target=java.lang.String\ format()
+comment3.text=\r\n\ \ \ \ \ \ Formats\ the\ invoice.\r\n\ \ \ \ \ \ @return\ the\ formatted\ invoice\r\n
+comment4.params=
+comment4.target=double\ getAmountDue()
+comment4.text=\r\n\ \ \ \ \ \ Computes\ the\ total\ amount\ due.\r\n\ \ \ \ \ \ @return\ the\ amount\ due\r\n
+numComments=5

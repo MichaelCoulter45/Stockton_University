@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Address
+comment0.text=\r\n\ \ \ Describes\ a\ mailing\ address.\r\n
+comment1.params=aName\ aStreet\ aCity\ aState\ aZip
+comment1.target=Address(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ a\ mailing\ address.\ \r\n\ \ \ \ \ \ @param\ aName\ the\ recipient\ name\r\n\ \ \ \ \ \ @param\ aStreet\ the\ street\r\n\ \ \ \ \ \ @param\ aCity\ the\ city\r\n\ \ \ \ \ \ @param\ aState\ the\ two-letter\ state\ code\r\n\ \ \ \ \ \ @param\ aZip\ the\ ZIP\ postal\ code\r\n
+comment2.params=
+comment2.target=java.lang.String\ format()
+comment2.text=\r\n\ \ \ \ \ \ Formats\ the\ address.\r\n\ \ \ \ \ \ @return\ the\ address\ as\ a\ string\ with\ three\ lines\r\n
+numComments=3

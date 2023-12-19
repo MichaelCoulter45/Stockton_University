@@ -1,0 +1,26 @@
+<html><body>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  1  </span><span style="font-family: monospace"></span><span style="color: #cc0066;">import</span> java.awt.Graphics;</pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  2  </span><span style="font-family: monospace"></span><span style="color: #cc0066;">import</span> java.awt.Graphics2D;</pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  3  </span><span style="font-family: monospace"></span><span style="color: #cc0066;">import</span> javax.swing.JComponent;</pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  4  </span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  5  </span><span style="font-family: monospace">/**</span><span style="color: #0073ff; font-family: serif; "></span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  6  </span><span style="font-family: monospace">   </span><span style="color: #0073ff; font-family: serif; ">This component draws two car shapes.</span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  7  </span><span style="font-family: monospace"></span><span style="color: #0073ff; font-family: serif; "></span><span style="font-family: monospace">*/</span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  8  </span><span style="font-family: monospace"></span><span style="color: #cc0066;">public</span> <span style="color: #cc0066;">class</span> CarComponent <span style="color: #cc0066;">extends</span> JComponent</pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  9  </span><span style="font-family: monospace">{  </span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 10  </span></span><span style="font-family: monospace">   </span><span style="color: #cc0066;">public</span> <span style="color: #cc0066;">void</span> paintComponent(Graphics g)</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 11  </span></span><span style="font-family: monospace">   {  </span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 12  </span></span><span style="font-family: monospace">      </span>Graphics2D g2 = (Graphics2D) g;</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 13  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 14  </span></span><span style="font-family: monospace">      </span>Car car1 = <span style="color: #cc0066;">new</span> Car(<span style="color: #66ff19;">0</span>, <span style="color: #66ff19;">0</span>);</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 15  </span></span><span style="font-family: monospace">      </span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 16  </span></span><span style="font-family: monospace">      </span><span style="color: #cc0066;">int</span> x = getWidth() - <span style="color: #66ff19;">60</span>;</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 17  </span></span><span style="font-family: monospace">      </span><span style="color: #cc0066;">int</span> y = getHeight() - <span style="color: #66ff19;">30</span>;</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 18  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 19  </span></span><span style="font-family: monospace">      </span>Car car2 = <span style="color: #cc0066;">new</span> Car(x, y);</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 20  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 21  </span></span><span style="font-family: monospace">      </span>car1.draw(g2);</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 22  </span></span><span style="font-family: monospace">      </span>car2.draw(g2);      </pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 23  </span></span><span style="font-family: monospace">   }</span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 24  </span><span style="font-family: monospace">}</span></pre>
+</body></html>

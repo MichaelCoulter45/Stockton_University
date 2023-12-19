@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\r\n\ \ \ A\ bank\ account\ has\ a\ balance\ that\ can\ be\ changed\ by\ \r\n\ \ \ deposits\ and\ withdrawals.\r\n
+comment1.params=
+comment1.target=BankAccount()
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ a\ bank\ account\ with\ a\ zero\ balance.\r\n
+comment2.params=initialBalance
+comment2.target=BankAccount(double)
+comment2.text=\r\n\ \ \ \ \ \ Constructs\ a\ bank\ account\ with\ a\ given\ balance.\r\n\ \ \ \ \ \ @param\ initialBalance\ the\ initial\ balance\r\n
+comment3.params=amount
+comment3.target=void\ deposit(double)
+comment3.text=\r\n\ \ \ \ \ \ Deposits\ money\ into\ the\ bank\ account.\r\n\ \ \ \ \ \ @param\ amount\ the\ amount\ to\ deposit\r\n
+comment4.params=amount
+comment4.target=void\ withdraw(double)
+comment4.text=\r\n\ \ \ \ \ \ Withdraws\ money\ from\ the\ bank\ account.\r\n\ \ \ \ \ \ @param\ amount\ the\ amount\ to\ withdraw\r\n
+comment5.params=
+comment5.target=double\ getBalance()
+comment5.text=\r\n\ \ \ \ \ \ Gets\ the\ current\ balance\ of\ the\ bank\ account.\r\n\ \ \ \ \ \ @return\ the\ current\ balance\r\n
+comment6.params=
+comment6.target=double\ getMeasure()
+comment7.params=Y
+comment7.target=boolean\ Accept(java.lang.Object)
+numComments=8

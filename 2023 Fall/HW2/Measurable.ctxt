@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Measurable
+comment0.text=\r\n\ \ \ Describes\ any\ class\ whose\ objects\ can\ be\ measured.\r\n
+comment1.params=
+comment1.target=double\ getMeasure()
+comment1.text=\r\n\ \ \ \ \ \ Computes\ the\ measure\ of\ the\ object.\r\n\ \ \ \ \ \ @return\ the\ measure\r\n
+numComments=2

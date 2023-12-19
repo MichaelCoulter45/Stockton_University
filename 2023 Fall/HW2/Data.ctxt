@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Data
+comment1.params=objects
+comment1.target=double\ average(Measurable[])
+comment1.text=\r\n\ \ \ \ \ \ Computes\ the\ average\ of\ the\ measures\ of\ the\ given\ objects.\r\n\ \ \ \ \ \ @param\ objects\ an\ array\ of\ Measurable\ objects\r\n\ \ \ \ \ \ @return\ the\ average\ of\ the\ measures\r\n
+numComments=2

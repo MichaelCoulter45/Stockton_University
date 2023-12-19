@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Sum
+comment1.params=array\ index
+comment1.target=int\ sum(int[],\ int)
+numComments=2

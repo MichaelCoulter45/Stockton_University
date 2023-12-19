@@ -1,0 +1,23 @@
+<html><body>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  1  </span><span style="font-family: monospace"></span><span style="color: #cc0066;">public</span> <span style="color: #cc0066;">class</span> SoundClipDemo</pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;">  2  </span><span style="font-family: monospace">{</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  3  </span></span><span style="font-family: monospace">   </span><span style="color: #cc0066;">public</span> <span style="color: #cc0066;">static</span> <span style="color: #cc0066;">void</span> main(String[] args)</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  4  </span></span><span style="font-family: monospace">   {</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  5  </span></span><span style="font-family: monospace">      </span>SoundClip clip = <span style="color: #cc0066;">new</span> SoundClip();</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  6  </span></span><span style="font-family: monospace">      </span>clip.pick();</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  7  </span></span><span style="font-family: monospace">      </span>clip.show();    </pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  8  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;">  9  </span></span><span style="font-family: monospace">      </span><span style="color: #cc0066;">int</span>[] samples = clip.getSampleValues();</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 10  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 11  </span></span><span style="font-family: monospace">      //</span><span style="color: #0073ff; font-family: serif; "> In this example, we don&apos;t need the sample rate.</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 12  </span></span><span style="font-family: monospace">      //</span><span style="color: #0073ff; font-family: serif; "> If you do, call clip.getSampleRate();</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 13  </span></span><span style="font-family: monospace"></span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 14  </span></span><span style="font-family: monospace">      </span><span style="color: #cc0066;">for</span> (<span style="color: #cc0066;">int</span> i = <span style="color: #66ff19;">0</span>; i &lt; samples.length; i++)</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 15  </span></span><span style="font-family: monospace">      {</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 16  </span></span><span style="font-family: monospace">         </span>samples[i] = <span style="color: #66ff19;">3</span> * samples[i];</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 17  </span></span><span style="font-family: monospace">      }</span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 18  </span></span><span style="font-family: monospace">      </span></pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 19  </span></span><span style="font-family: monospace">      </span>clip.show();</pre>
+<pre style="margin: 0em;"><span style="background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 20  </span></span><span style="font-family: monospace">   }</span></pre>
+<pre style="margin: 0em;background: #ededed"><span style="color: #0073ff; font-weight: bold;"> 21  </span><span style="font-family: monospace">}</span></pre>
+</body></html>

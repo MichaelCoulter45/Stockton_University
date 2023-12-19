@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Country
+comment0.text=\r\n\ \ \ A\ country\ with\ a\ name\ and\ area.\r\n
+comment1.params=aName\ anArea
+comment1.target=Country(java.lang.String,\ double)
+comment1.text=\r\n\ \ \ \ \ \ Constructs\ a\ country.\r\n\ \ \ \ \ \ @param\ aName\ the\ name\ of\ the\ country\r\n\ \ \ \ \ \ @param\ anArea\ the\ area\ of\ the\ country\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ \ \ \ \ \ Gets\ the\ country\ name.\r\n\ \ \ \ \ \ @return\ the\ name\r\n
+comment3.params=
+comment3.target=double\ getArea()
+comment3.text=\r\n\ \ \ \ \ \ Gets\ the\ area\ of\ the\ country.\r\n\ \ \ \ \ \ @return\ the\ area\r\n
+comment4.params=
+comment4.target=double\ getMeasure()
+numComments=5
